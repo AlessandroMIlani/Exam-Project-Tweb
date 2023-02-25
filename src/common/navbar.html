@@ -1,0 +1,31 @@
+<header class="p-3 border-bottom border-light d-flex" data-bs-theme="dark">
+  <div class="container">
+    <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start" id="nav">
+      <a href="linux.php" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none"></a>
+        <img src="../img/extra_logo/generic_logo.png" alt="logo" height="40">
+      <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+        <li><a href="index.php" class="nav-link px-2 ">Homepage</a></li>
+        <li><a href="finder.php" class="nav-link px-2">Distro Finder</a></li>
+        <li><a href="favs.php" class="nav-link px-2">Favorite</a></li>
+      </ul>
+        <div id="spacer"></div>
+      <div class="text-end">
+        <div class="flex-shrink-0 dropdown">
+          <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            <img src="<?= $img ?>" alt="pic" width="32" height="32" class="rounded-circle">
+          </a>
+          <ul class="dropdown-menu text-small shadow">
+            <li><a class="dropdown-item" href="profile.php">Profile</a></li>
+            <?php if ($_SESSION['role'] == 'admin') {
+              echo '<li><a class="dropdown-item" href="admin.php">Admin Page</a></li>';
+            }
+              ?>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item send-logout" href="#">Logout</a></li>
+          </ul>
+        </div>
+    </div>
+  </div>
+  <script src="../js/logout.js"></script>
+  </div>
+</header>

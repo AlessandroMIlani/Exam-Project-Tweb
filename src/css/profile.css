@@ -1,0 +1,62 @@
+
+
+.card{
+    border:none
+}
+
+.image{
+    position:relative
+}
+
+.image span{
+    height:30px;width:30px;
+    border-radius:50%;
+    font-size:13px;
+    position:absolute;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    top:-0px;right:0px
+}
+
+
+
+.user-details span{
+    text-align:left
+}
+
+.inputs label{
+    display:flex;
+    margin-left:3px;
+    font-weight:500;
+    font-size:13px
+    ;margin-bottom:4px
+}
+
+.inputs input{
+    font-size:14px;
+    height:40px
+    ;border:2px solid #ced4da
+}
+
+.about-inputs label{
+    display:flex;
+    margin-left:3px;
+    font-weight:500;
+    font-size:13px;
+    margin-bottom:4px
+}
+
+.btn{
+    font-weight:600
+}
+
+.btn:focus{
+    box-shadow:none
+}
+
+
+#error{
+    /* size 50% */
+    width: 50%;    
+}

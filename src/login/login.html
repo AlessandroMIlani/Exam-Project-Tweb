@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="en" data-bs-theme="dark">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Distro Spy</title>
+  <link rel="stylesheet" href="../css/login.css">
+  <link rel="stylesheet" href="../css/common.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">  <link rel="stylesheet" href="../css/login.css">
+
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="../js/login.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 offset-md-3">
+        <div class="card cardbody-color my-5">
+          <div class="login-form-2 card-body p-lg-5">
+            <h3 class="text-center fw-bold mb-5">Login</h3>
+            <div class="text-center">
+              <img src="https://seeklogo.com/images/L/Linux_Tux-logo-DA252F3C21-seeklogo.com.png"
+                class="img-fluid profile-image-pic img-thumbnail rounded-circle my-3" width="200" alt="profile">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" id="username" name="username" placeholder="User Name" >
+            </div>
+            <div class="spacer"></div>
+            <div class="form-group">
+              <input type="password" class="form-control" id="password" name="password" placeholder="Password">
+            </div>
+            <div class="spacer"></div>
+            <div class="form-group">
+              <button type="button" class="btn btn-outline-success px-5 mb-5 w-100 text-white" id="send-login">Login</button>
+            </div>
+            <div class="spacer"></div>
+            <div class="spacer"></div>
+            <div id="reg" class="form-text text-center mb-5  create">Not
+              Registered? <a href="./signup.html" class="fw-bold"> Create an Account</a>
+            </div>
+          </div>
+        </div>
+        <!-- empty div to fill with error-->
+        <div id="error" class="alert alert-danger text-center text-center" role="alert"></div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

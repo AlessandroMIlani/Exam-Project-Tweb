@@ -1,0 +1,42 @@
+
+/* img */
+.bd-img {
+    font-size: 1.125rem;
+    background-image: url(../img/distro/antix/antix-small.png),url(../img/distro/arch/arch-small.png),url(../img/distro/ubuntu/ubuntu-small.png);;
+    background-position: left top, center top, right top;
+    background-repeat: no-repeat;
+    margin-left: 50px;
+    margin-right: 40px;
+  }
+
+  @media (min-width: 768px) {
+    .bd-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+/* row */
+.pres .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+
+.pres .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+
+.pres{
+  max-width: 100%;
+}
+
+
+.c-item {
+  height: 480px;
+}
+
+.c-img {
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.6);
+}

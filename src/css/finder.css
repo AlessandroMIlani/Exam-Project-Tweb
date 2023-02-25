@@ -1,0 +1,39 @@
+
+.bt-text{
+    color: white;
+    border: 1px solid white;
+}
+
+.card li {
+    margin-left: auto;
+  }
+
+
+
+.fixed-sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 10%;
+    overflow-y: scroll;
+  }
+
+.little{
+    width: 10rem;
+}
+
+.drag-zone{
+    margin-left: 100px;
+    width: 200px;
+    height: 100px;
+    border-radius: 5px;
+    border-color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    position: fixed;
+    top: 50%;
+    left: 3%;
+    transform: translate(-50%, -50%);
+}

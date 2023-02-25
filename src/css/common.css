@@ -1,0 +1,31 @@
+#spacer {
+    flex: auto;
+}
+
+.spacer {
+    height: 20px;
+}
+
+.center {
+    margin: auto;
+}
+
+.center-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.distro-card {
+    position: relative;
+    top: 50px;
+    padding: 10px;
+    z-index: 1;
+}
+
+.alert {
+    position: relative;
+    margin-top: 50px;
+    display: none;
+  }
